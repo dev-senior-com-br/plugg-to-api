@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.1-alpha] - 2021-12-01
+
 ### Added
 
 ### Changed
@@ -14,8 +16,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 ### Removed
+
 ## [0.0.1-alpha] - 2021-12-01
 
 ### Added
 
-- Plugg To product payload.
+-   Plugg To product payload.
+
+[Unreleased]: https://github.com/dev-senior-com-br/plugg-to-api/compare/0.0.1-alpha...HEAD
+
+[0.0.1-alpha]: https://github.com/dev-senior-com-br/plugg-to-api/compare/0.0.1-alpha...0.0.1-alpha
