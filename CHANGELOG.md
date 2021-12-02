@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.3-alpha] - 2021-12-02
+
 ### Added
 
 ### Changed
@@ -19,16 +21,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Order payloads.
+-   Order payloads.
 
 ## [0.0.2-alpha] - 2021-12-01
 
 ### Changed
 
-- Changed Product payload name to PluggToProduct.
+-   Changed Product payload name to PluggToProduct.
 
 ## [0.0.1-alpha] - 2021-12-01
 
 ### Added
 
-- Plugg To Product payload.
+-   Plugg To Product payload.
+
+[Unreleased]: https://github.com/dev-senior-com-br/plugg-to-api/compare/0.0.3-alpha...HEAD
+
+[0.0.3-alpha]: https://github.com/dev-senior-com-br/plugg-to-api/compare/0.0.3-alpha...0.0.3-alpha
