@@ -9,9 +9,9 @@ import io.quarkus.runtime.annotations.RegisterForReflection;
 
 @RegisterForReflection(serialization = true)
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class PluggToProduct {
+public class PluggToProductPayload {
 
-    public static final JacksonDataFormat PLUGG_TO_PRODUCT_FORMAT = new JacksonDataFormat(PluggToProduct.class);
+    public static final JacksonDataFormat PLUGG_TO_PRODUCT_FORMAT = new JacksonDataFormat(PluggToProductPayload.class);
 
     /*
      * Code
