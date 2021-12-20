@@ -7,13 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.5-alpha] - 2021-12-20
+
 ### Added
 
-- Product payload.
-- Order payloads.
+-   Product payload.
+-   Order payloads.
 
 ### Changed
 
 ### Fixed
 
 ### Removed
+
+[Unreleased]: https://github.com/dev-senior-com-br/plugg-to-api/compare/0.0.5-alpha...HEAD
+
+[0.0.5-alpha]: https://github.com/dev-senior-com-br/plugg-to-api/compare/428d538120e12f26c39bc4b3191630564679bcf1...0.0.5-alpha
