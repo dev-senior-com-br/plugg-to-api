@@ -20,7 +20,9 @@ public class PluggToOrder {
 
     public static final JacksonDataFormat PLUGG_TO_ORDER_FORMAT = new JacksonDataFormat(PluggToOrder.class);
 
+    @JsonProperty("tags")
     public Map<String, String> tags;
+    @JsonProperty("commmission")
     public PluggToCommission commmission;
     @JsonProperty("status_history")
     public List<Object> statusHistory;
@@ -30,9 +32,13 @@ public class PluggToOrder {
     public List<Object> logHistory;
     @JsonProperty("log_permanent")
     public List<Object> logPermanent;
+    @JsonProperty("payments")
     public List<PluggToPayment> payments;
+    @JsonProperty("items")
     public List<PluggToOrderItem> items;
+    @JsonProperty("shipments")
     public List<PluggToShipment> shipments;
+    @JsonProperty("channel")
     public String channel;
     @JsonProperty("receiver_name")
     public String receiverName;
@@ -92,25 +98,33 @@ public class PluggToOrder {
     public String payerCorporateName;
     @JsonProperty("payer_email")
     public String payerEmail;
+    @JsonProperty("total")
     public BigDecimal total;
     @JsonProperty("total_paid")
     public BigDecimal totalPaid;
+    @JsonProperty("shipping")
     public Long shipping;
     @JsonProperty("subtotal")
     public BigDecimal subTotal;
+    @JsonProperty("status")
     public String status;
+    @JsonProperty("external")
     public Map<String, String> external;
     @JsonProperty("original_id")
     public String originalId;
     @JsonProperty("user_id")
     public String userId;
+    @JsonProperty("created")
     public String created;
     @JsonProperty("created_by")
     public String createdBy;
+    @JsonProperty("ack")
     public Boolean ack;
+    @JsonProperty("modified")
     public String modified;
     @JsonProperty("modified_by")
     public String modifiedBy;
+    @JsonProperty("timestamp")
     public Long timestamp;
     @JsonProperty("expected_send_date")
     public String expectedSendDate;
@@ -122,11 +136,13 @@ public class PluggToOrder {
     public String inputService;
     @JsonProperty("sub_status")
     public String subStatus;
+    @JsonProperty("discount")
     public String discount;
     @JsonProperty("discount_description")
     public String discountDescription;
     @JsonProperty("channel_account")
     public String channelAccount;
+    @JsonProperty("currency")
     public String currency;
     @JsonProperty("receiver_additional_info")
     public String receiverAdditionalInfo;
@@ -172,7 +188,9 @@ public class PluggToOrder {
     public String payerDocument;
     @JsonProperty("payer_company_name")
     public String payerCompanyName;
+    @JsonProperty("deleted")
     public String deleted;
+    @JsonProperty("comission")
     public String comission;
     @JsonProperty("sale_intermediary")
     public String saleIntermediary;
@@ -212,5 +230,6 @@ public class PluggToOrder {
     public String labelPrinted;
     @JsonProperty("auto_reserve")
     public String autoReserve;
+    @JsonProperty("id")
     public String id;
 }

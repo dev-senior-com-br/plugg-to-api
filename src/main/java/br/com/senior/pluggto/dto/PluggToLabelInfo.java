@@ -16,7 +16,9 @@ public class PluggToLabelInfo {
 
     public static final JacksonDataFormat PLUGG_TO_LABEL_INFO_FORMAT = new JacksonDataFormat(PluggToLabelInfo.class);
 
+    @JsonProperty("plp")
     public String plp;
+    @JsonProperty("logotipo")
     public String logotipo;
     @JsonProperty("sender_name")
     public String senderName;

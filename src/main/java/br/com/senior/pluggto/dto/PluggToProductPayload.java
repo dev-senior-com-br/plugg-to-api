@@ -19,16 +19,19 @@ public class PluggToProductPayload {
     /*
      * Code
      **/
+    @JsonProperty("sku")
     public String sku;
 
     /*
      * Description
      **/
+    @JsonProperty("name")
     public String name;
 
     /*
      * barcode
      **/
+    @JsonProperty("ean")
     public String ean;
 
     /*
@@ -40,16 +43,19 @@ public class PluggToProductPayload {
     /*
      * id
      **/
+    @JsonProperty("external")
     public String external;
 
     /*
      * taxProduct->cest
      **/
+    @JsonProperty("cest")
     public String cest;
 
     /*
      * StockProduct->costPrice
      **/
+    @JsonProperty("cost")
     public String cost;
 
 }

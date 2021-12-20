@@ -20,9 +20,11 @@ public class PluggToShipment {
 
     @JsonProperty("label_info")
     public PluggToLabelInfo labelInfo;
+    @JsonProperty("issues")
     public List<Object> issues;
     @JsonProperty("shipping_items")
     public List<Object> shippingItems;
+    @JsonProperty("documents")
     public List<Object> documents;
     @JsonProperty("shipping_method")
     public String shippingMethod;
@@ -30,18 +32,23 @@ public class PluggToShipment {
     public String shippingCompany;
     @JsonProperty("estimate_delivery_date")
     public String estimateDeliveryDate;
+    @JsonProperty("external")
     public String external;
     @JsonProperty("error_message")
     public String errorMessage;
+    @JsonProperty("quote")
     public String quote;
     @JsonProperty("shipping_method_id")
     public String shippingMethodId;
+    @JsonProperty("description")
     public String description;
     @JsonProperty("track_code")
     public String trackCode;
     @JsonProperty("track_url")
     public String trackUrl;
+    @JsonProperty("status")
     public String status;
+    @JsonProperty("comment")
     public String comment;
     @JsonProperty("date_shipped")
     public String dateShipped;
@@ -59,10 +66,13 @@ public class PluggToShipment {
     public String nfeSerie;
     @JsonProperty("nfe_date")
     public String nfeDate;
+    @JsonProperty("cfops")
     public String cfops;
+    @JsonProperty("printed")
     public String printed;
     @JsonProperty("label_type")
     public String labelType;
+    @JsonProperty("id")
     public String id;
 
 }

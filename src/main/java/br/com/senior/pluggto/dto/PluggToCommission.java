@@ -16,9 +16,12 @@ public class PluggToCommission {
 
     public static final JacksonDataFormat PLUGG_TO_COMISSION_FORMAT = new JacksonDataFormat(PluggToCommission.class);
 
+    @JsonProperty("fixed")
     public String fixed;
+    @JsonProperty("tax")
     public String tax;
     @JsonProperty("total_charged")
     public String totalCharged;
+    @JsonProperty("comment")
     public String comment;
 }

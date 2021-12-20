@@ -22,6 +22,7 @@ public class PluggToLoginPayload {
     public String clientSecret;
     @JsonProperty("username")
     public String userName;
+    @JsonProperty("password")
     public String password; // NOSONAR
     @JsonProperty("grant_type")
     public String grantType = "password";

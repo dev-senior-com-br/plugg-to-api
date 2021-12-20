@@ -32,6 +32,8 @@ public class PluggToPayment {
     public String paymentAdditionalInfo;
     @JsonProperty("payment_interest")
     public String paymentInterest;
+    @JsonProperty("external")
     public String external;
+    @JsonProperty("id")
     public String id;
 }

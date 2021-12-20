@@ -18,18 +18,29 @@ public class PluggToOrderItem {
 
     public static final JacksonDataFormat PLUGG_TO_ORDER_ITEM_FORMAT = new JacksonDataFormat(PluggToOrderItem.class);
 
+    @JsonProperty("commission")
     public PluggToCommission commission;
+    @JsonProperty("variation")
     public PluggToOrderItemVariation variation;
+    @JsonProperty("name")
     public String name;
+    @JsonProperty("sku")
     public String sku;
+    @JsonProperty("quantity")
     public Long quantity;
+    @JsonProperty("price")
     public BigDecimal price;
+    @JsonProperty("total")
     public BigDecimal total;
     @JsonProperty("original_sku")
     public String originalSku;
+    @JsonProperty("id")
     public String id;
+    @JsonProperty("location")
     public String location;
+    @JsonProperty("discount")
     public String discount;
+    @JsonProperty("external")
     public String external;
     @JsonProperty("supplier_id")
     public String supplierId;
